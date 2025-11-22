@@ -13,36 +13,40 @@ Aplicación de consola que permite convertir entre diferentes unidades:
 - Menú interactivo con opciones
 - Métodos separados para cada conversión
 
-## 📦 Ejecución
-1. Clona el repositorio:
-   git clone https://github.com/AnsuxDEV/conversor-unidades.git
+## 🖼️ Ejemplo de uso
 
-2. Compila y ejecuta:
-   javac ConversorUnidades.java
-   java ConversorUnidades
-
-🖼️ Ejemplo de uso
   ------Bienvenido al conversor de unidades------
+  
   1 = Kilometros a Millas
+  
   2 = Millas a Kilometros
+  
   3 = Celsius a Fahrenheit
+  
   4 = Fahrenheit a Celsius
+  
   0 = Salir
+  
   Elija una opción:
 
 Si el usuario introduce texto en lugar de un número:
+
   ❌ Entrada inválida. Debes introducir un número.
 
-🧠 Aprendizajes
-Este proyecto me ayudó a reforzar:- Uso de Scanner para entrada de datos
-  - Validación de entradas con hasNextInt() y hasNextDouble()
-  - Estructuras de control switch y la importancia de break
-  - Organización del código en métodos auxiliares
+## 🧠 Aprendizajes
+
+Este proyecto me ayudó a reforzar:
+
+   - Uso de Scanner para entrada de datos
+   - Validación de entradas con hasNextInt() y hasNextDouble()
+   - Estructuras de control switch y la importancia de break
+   - Organización del código en métodos auxiliares
     
-📈 Mejoras futuras
+## 📈 Mejoras futuras
+
   - Añadir interfaz gráfica con Swing o JavaFX
   - Ampliar a más tipos de conversiones (peso, tiempo, volumen)
   - Guardar un historial de conversiones en un archivo .txt
     
-📄 Licencia
+## 📄 Licencia
   Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
